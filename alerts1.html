@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Devanagri Script Rectifier</title>
+      <link href="{{url_for('static', filename='style.css')}}" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+           <a href="index.html"><img id="logo" src="https://www.houseofbots.com/images/news/4607/cover.png">
+
+    <div class="header">
+        <span class="name"></span></a>
+    </div>
+
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contact_us.html">Contact Us</a></li>
+        <li><a href="about_us.html">About Us</a></li>
+      </ul>
+      </nav>
+
+      <div class="contact_background">
+
+        <div class="contact_form">
+          <h2>English Spell Checker</h2>
+          <div id="error_message"></div>
+
+
+        <form action="#" method="post">
+          <div class="stock_name">
+            <textarea name="incorrect_word" placeholder="{{someVal}}" id="message" ></textarea>
+          </div>
+            <div class="thres">
+            <textarea name="incorrect_word" placeholder="{{someVal}}" id="message" ></textarea>
+          </div>
+          <div class="btn">
+          <input type="submit">
+          </div>
+
+        </form>
+        </div>
+      </div>
+           <p style="background-color:white;">{% autoescape false %} {{output}} {% endautoescape %}</p>
+    <script src="script.js"></script>
+  </body>
+</html>

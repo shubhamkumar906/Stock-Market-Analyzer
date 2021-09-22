@@ -1,0 +1,772 @@
+body{margin:0;width:100%;background-color:black; }
+#random{color: white;}
+.header
+{ width:100%;
+  padding:1px;
+  height:100px;
+  background-color: rgb(0,0,0,0.8);
+}
+
+.header .list{margin-right:10%;}
+.header .list ul li
+{
+  float:right;
+  padding-left:10px;
+  padding-right:10px;
+  margin-top: 18px;
+  color:red;
+  list-style-type: none;
+  font-size: 20px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight:400;
+}
+.header .list ul li a
+{color:red;text-decoration: none;}
+.header .list ul li a:hover{color:White;}
+.header .list ul li:hover{color:White;cursor:pointer;}
+
+.header button
+{
+  margin-left:35%;
+  padding:8px;
+  position: absolute;
+  top:8px;
+}
+#search{padding-left:300px;}
+#search1{margin-top:20px;}
+#cart{margin-top:18px;}
+
+.header img
+{ float:right;
+  width:2%;height:4%;
+  position: absolute;
+  right:148px;
+  top:9px;
+  cursor: pointer;
+}
+
+.name{
+left:15%;
+position: absolute;
+top:30px;
+font-size: 30px;
+color:whitesmoke;
+font-family: 'Ubuntu', sans-serif;
+font-weight:500;
+}
+
+
+
+nav ul
+{ margin:0px;
+  width:100%;
+  background-color:#e1f4f3;
+  overflow: hidden;
+}
+nav ul li
+{float:left;
+list-style-type: none;
+padding-right:40px;
+padding-left:80px;
+padding-top:15px;
+padding-bottom:15px;
+font-size: 20px;
+  letter-spacing: 2px;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 300;
+
+}
+nav ul li a{text-decoration: none;color:#333333;}
+nav ul li a:hover{color:#706c61;border:solid;}
+
+#logo{
+  padding-left:20px;
+  position: absolute;
+  float:none;width:100px;height:100px;
+  left:40px;
+  cursor: pointer;
+  }
+
+
+
+/* slider */
+#slider
+{overflow:hidden;margin-right:72px;margin-left:72px;margin-top:30px;height:700px;
+
+}
+
+#slider figure
+{margin-top:-80px;
+  position: relative;
+  width:500%;
+  margin:0px;
+  height:400px;
+  animation-timing-function: ease-out;
+ animation:19s slideranimation infinite;
+
+}
+
+#slider figure img{
+  width:20%;
+  margin:0px;
+  height:600px;
+  float:left;
+
+
+}
+
+@keyframes slideranimation
+{
+  0%{left:0%;}
+  20%{left:0%;}
+  25%{left:-100%;}
+  45%{left:-100%;}
+  50%{left:-200%;}
+  70%{left:-200%;}
+  75%{left:-300%;}
+  95%{left:-300%;}
+
+
+}
+
+.category
+{
+  background-color: #ebebe3;
+  min-height:700px;
+}
+
+.category .txt
+{
+  font-size:40px;
+  text-align: center;
+  margin-top:60px;
+  padding-top:10px;
+  font-family: 'Source Code Pro', monospace;
+}
+.category .one img,.category .two img
+{
+  width:25%;
+  height:500px;
+  float:left;
+  margin-top:20px;
+  border: 5px solid;
+   box-shadow: 5px 10px #4a4a48;
+}
+.category .two img
+{margin-left:100px;}
+.category .one img
+{
+  margin-left:320px;
+}
+.onetext
+{ position: relative;
+  top:550px;
+  left:-48%;
+  font-size:20px;
+background-color: #ef5a5a;  font-size:20px;
+  font-weight:300;
+
+}
+.twotext
+{ position: relative;
+  top:30%;
+  left:-25%;
+  top:550px;
+  font-size:20px;
+  font-weight:300;
+background-color: #ef5a5a;
+}
+
+.twotext a,.onetext a{text-decoration: none;  color:black;}
+.twotext a:hover{  text-decoration: underline;}
+.onetext a:hover{  text-decoration: underline;}
+/* slider ends */
+
+/* footer */
+.footer{
+ background-color:#706c61;
+  position: relative;
+  min-height:100px;
+ margin-top:15px;
+  width:100%;
+}
+
+#f1,#f2
+{ padding-top:15px;
+  position: relative;
+  text-align: center;
+  font-size: 16px;
+  color:white;
+  }
+.footer a{margin-left:44%;text-decoration: none;padding-top:15px;color:white;}
+
+/* footer ends */
+
+/* footer login */
+.footer_login{
+ background-color:#706c61;
+  position: relative;
+  min-height:100px;
+  width:100%;
+  text-align: center;
+}
+.footer_login a{text-decoration: none;padding-top:15px;color:white; text-align: center;}
+
+
+/* footer login ends */
+
+
+/* login form */
+
+#login_background
+{
+  width:100%;
+  height:750px;
+  opacity: 0.7;
+}
+
+ #login_heading
+{ text-align: center;
+  font-size:25px;
+  color:burlywood;
+}
+.container1
+{
+  position: absolute;
+  top: 55%;
+  left: 40%;
+  transform: translate(-5%,-25%);
+  max-width: 400px;
+  border:solid;
+  width:50%;
+ box-shadow: 5px 5px;
+  min-height:350px;
+}
+.login_form
+{text-align: center;}
+.email,.password
+{
+  margin-top:25px;
+}
+#head1,#head2
+{
+margin-left:-65%;
+padding-top:15px;
+font-size:20px;
+}
+#head1{margin-left:-70%;}
+#text1,#text2{width:320px; }
+#email_error,#password_error{display:none;color:lightgoldenrodyellow;}
+
+
+#submit{
+  margin-top:20px;
+  margin-left:40%;
+  display:block;
+  width:100px;
+  border-radius:5px;
+  padding:2px;
+  font-size:15px;
+  cursor:pointer;
+  }
+  #submit:hover{color:darkslateblue;}
+
+
+/* Sign up */
+#signup_background
+{
+  height:800px;
+  width:100%;
+  opacity: 0.6;
+}
+.signup_container
+{
+  position: absolute;
+  top:35%;
+  left:35%;
+ min-width:500px;
+  text-align: center;
+  min-height:500px;
+  border:solid bisque;
+  box-shadow: 5px 5px;
+}
+#username,#password,#email,#contact
+{
+  width:80%;
+  height:20px;
+}
+.signup_username,.signup_password,.signup_email,.phone_username
+{
+  margin-bottom:5px;
+  margin-left:-350px;
+  margin-top:20px;
+  color:blanchedalmond;
+  font-size:20px;
+}
+.phone_username
+{
+  margin-left:-285px;
+}
+.signup_email
+{
+    margin-left:-370px;
+}
+#username_error_signup,#password_error_signup,#email_error_signup,#phone_error_signup
+{
+  display:none;
+  color:azure;
+  text-decoration:underline;
+}
+#create_account
+{
+  display:block;
+  margin-left:40%;
+  margin-top:30px;
+  padding:5px;
+  padding-left:10px;
+   padding-right:10px;
+  cursor: pointer;
+  border-radius: 5%;
+  background-color:#fce38a;
+}
+#signup_heading
+{
+  color:white;
+}
+#create_account:hover{color:coral;}
+
+/* dog */
+#heading_dog{text-align: center;color:white;font-family: 'EB Garamond', serif;}
+#main_dog
+{ background-color: #e1f4f3;
+  width:100%;
+  height:550px;
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content: center;
+
+}
+#main_dog .container
+{
+  width:25%;
+  height:400px;
+    border:outset;
+    margin-left:15px;
+    text-align: center;
+    box-shadow: 5px 10px;
+}
+#main_dog .container h2{color:#3f3f44;}
+
+#main_dog img{
+  width:100%;
+  height:290px;
+  }
+
+  #main_dog #dog_btn1,  #main_dog #dog_btn2,  #main_dog #dog_btn3
+  {
+    padding:5px;
+    margin-top:3px;
+  }
+    #main_dog #dog_btn1 a,  #main_dog #dog_btn2 a,  #main_dog #dog_btn3 a
+{text-decoration: none;color:#c72c41;
+}
+/* dog main page end */
+
+
+
+
+
+
+ /* Contact */
+ .contact_background{background-image:linear-gradient(#333333,#ffffff);}
+.contact_form{
+
+  position: relative;
+  top: -190px;
+  left: 50%;
+
+  max-width: 350px;
+  width: 100%;
+  background: #fff;
+  padding: 25px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 2px rgba(254,236,164,1);
+}
+
+.contact_form h2{
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #332902;
+  font-family: 'Grandstander', cursive;
+}
+
+.contact_form .input_field{
+  margin-bottom: 10px;
+}
+
+.contact_form .input_field input[type="text"],
+.contact_form textarea{
+  border: 1px solid black;
+  width: 100%;
+  padding: 10px;
+}
+
+.contact_form textarea{
+  resize: none;
+  height: 80px;
+}
+
+.contact_form .btn input[type="submit"]{
+  border: 0px;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  background:#fce38a;
+  color: #332902;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+#error_message{
+  margin-bottom: 20px;
+  background: #fe8b8e;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
+
+
+
+.address
+{ position: relative;
+  color:white;
+max-width:150px;
+left:100px;
+top:200px;
+}
+#address{padding-left:2px;font-family: 'Montserrat', sans-serif;color:black;}
+#mail{font-family: 'Montserrat', sans-serif;color:black;}
+.address p,.mail p{font-family: 'Open Sans Condensed', sans-serif;position: relative;top:-15px;}
+.address img{
+  position: relative;
+  width:50px;
+  height:50px;
+  left:-60px;
+  top:-80px;
+
+}
+
+.mail{
+  position: relative;
+  color:white;
+max-width:200px;
+left:100px;
+top:130px;
+}
+#mailimg{
+  position: relative;
+  width:50px;
+  height:50px;
+ top:60px;
+  left:40px;
+}
+/* contact end */
+
+/* Dog all categories */
+#dog_poodle_h2,#dog_bullDog_h2,#dog_germanShepherd_h2{text-align:center;color:White;}
+
+#main_poodle,#main_bullDog,#main_germanSherpherd
+{
+  width:100%;
+  height:100%;
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  flex-wrap: wrap;
+  padding-left:2%;
+  background-image:linear-gradient(#e1f4f3,#333333);
+}
+
+#main_poodle .container_poodle,#main_germanShepherd .container_germanShepherd,#main_bullDog .cantainer_bullDog
+{ margin-left:10px;
+  width:30%;
+  height:380px;
+  text-align:center;
+  margin-top:80px;
+ border:solid 2px;
+ border-radius: 3%;
+ padding-top:6px;
+}
+#main_poodle img,#main_germanShepherd img,#main_bullDog img{
+  width:70%;
+  height:200px;
+}
+#main_poodle .container_poodle:hover,#main_germanShepherd .container_germanShepherd:hover,#main_bullDog .container_bullDog:hover
+{
+  border:outset;
+  box-shadow: 5px 10px;
+}
+
+.container_bullDog p{font-size:20px;color:#e1f4f3; }
+.container_germanShepherd p{font-size:20px;color:#e1f4f3; }
+.container_poodle p{font-size:20px;color:#e1f4f3; }
+#more{color:#fce38a;}
+#more a{text-decoration: none;color:#fce38a;}
+
+
+/*  dog all categories end */
+
+/* Women */
+ #headingwomen{text-align: center;color:white;font-family: 'EB Garamond', serif;}
+#main_women
+{
+  width:100%;
+  height:550px;
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content: center;
+  background-color: #ebebe3;
+
+}
+#main_women .container
+{
+  width:25%;
+  height:400px;
+    border:outset;
+    margin-left:15px;
+    text-align: center;
+    box-shadow: 5px 10px;
+}
+
+#main_women img{
+  width:100%;
+  height:290px;
+  }
+
+  #main_women #womenbtn1,  #main_women #womenbtn2,  #main_women #womenbtn3
+  {
+    padding:5px;
+    margin-top:3px;
+  }
+/* main women end */
+
+
+/* women all categories */
+#women_sport_h2,#women_casual_h2,#women_balle_h2{text-align:center;color:white;}
+
+#main_womensport,#main_womencasual,#main_womenballe
+{
+  width:100%;
+  height:100%;
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  flex-wrap: wrap;
+   padding-left:2%;
+  background-image:linear-gradient(#e1f4f3,#333333);
+}
+
+#main_womensport .cantainer_womensport,#main_womencasual .cantainer_womencasual,#main_womenballe .cantainer_womenballe
+{ margin-left:10px;
+  width:30%;
+    height:400px;
+  text-align:center;
+  margin-top:80px;
+   border:solid 2px;
+ border-radius: 3%;
+ padding-top:6px;
+
+}
+#main_womensport img,#main_womencasual img,#main_womenballe img{
+  width:70%;
+  height:200px;
+}
+#main_womensport .cantainer_womensport:hover,#main_womencasual .cantainer_womencasual:hover,#main_womenballe .cantainer_womenballe:hover
+{
+  border:outset;
+  box-shadow: 5px 10px;
+}
+
+.cantainer_womencasual p{font-size:20px;color:#e1f4f3; }
+.cantainer_womensport p{font-size:20px;color:#e1f4f3; }
+.cantainer_womenballe p{font-size:20px;color:#e1f4f3; }
+#more{color:#fce38a;}
+#more a{text-decoration: none;color:#fce38a;}
+/*  women all categories end */
+
+
+/* about us */
+.about
+{
+  background-image: linear-gradient(#e1f4f3,#333333);margin:0px;padding-left:15px;
+}
+#about_heading
+{
+  padding-top:8px;
+  font-family: 'Hind Madurai', sans-serif;
+    text-decoration: underline;
+
+}
+#about_p
+{
+  font-size:20px;
+}
+#about_why
+{
+  font-family: 'Hind Madurai', sans-serif;   text-decoration: underline;
+}
+.content ul li
+{
+  font-size:20px;
+
+}
+#dev1
+{
+  width:250px;
+  height:350px;
+  float:left;
+  margin-right:15px;
+  padding-top:20px;
+}
+#name{text-align:center;font-size:25px;}
+.about .developer1, .about .developer2
+{
+  border:solid;
+  max-width:900px;
+  min-height:400px;
+  padding:20px;
+  margin-left:20%;
+  box-shadow: 5px 2px;
+}
+.about .developer1 p,.about .developer2 p
+{
+  text-align:justify;
+  font-size:20px;
+ line-height: 35px;
+}
+.developer2{margin-top:10px;}
+#dev_heading{text-align: center;margin-top:20px;font-family: 'Acme', sans-serif;text-decoration: underline;}
+
+
+
+/* men_sports_1 */
+.dog_poodle_container
+{
+  background-color:white;
+  min-height:480px;
+  width:100%;
+  font-family: 'Work Sans', sans-serif;
+}
+
+#men_sports_1
+{
+  float:left;
+ padding-right:30px;
+ padding-left:10px;
+ padding-top:10px;
+}
+.content{padding-top:1px;}
+#shoe_name{font-style:italic;font-size:20px;}
+#part1{font-size:16px;  text-decoration: line-through;padding-left:5px;padding-right:5px;color:darkgray;}
+#part2{font-size:16px;color:red;}
+.circles .dot
+{
+   height: 30px;
+  width: 30px;
+  background-color:burlywood;
+  border-radius: 50%;
+  display: inline-block;
+  padding-top:8px;
+  padding-right:6px;
+  text-align: center;
+  padding-left:2px;
+
+}
+.circles {position: relative;top:-10px;left:20px;}
+#seller_1{padding-left:15px;color:cornflowerblue;}
+#seller{color:gray;}
+#size{color:gray;}
+#rating{color:gray;}
+#rating_1{color:cornflowerblue;}
+#addtocart
+{
+  width:200px;
+  height:35px;
+  display: inline;
+  font-size:20px;
+  cursor: pointer;
+  background-color:lightgoldenrodyellow;
+}
+
+.men_shoes_container_1
+{ padding-top:10px;
+  padding-left:15%;
+   background-color: white;
+}
+#men_sports_1_2
+{
+  width:200px;height:250px;
+  padding:5px;
+  border:groove;
+
+}
+
+/* men sport 2 */
+#men_sports_2
+{
+  width:700px;
+  height:472px;
+  float:left;
+ padding-right:100px;
+ padding-left:40px;
+ padding-top:10px;
+}
+#dog_poodle_standardPoodle
+{
+  width:600px;
+  height:472px;
+  float:left;
+ padding-right:100px;
+ padding-left:130px;
+ padding-top:10px;
+}
+
+#women_sport_1
+{ float:left;
+  width:800px;
+   height:472px;
+  padding-right:50px;
+  padding-left:10px;
+}
+#women_casual_1
+{
+   float:left;
+  width:750px;
+   height:472px;
+  padding-right:50px;
+  padding-left:10px;
+}
+#men_ballerinas_1
+{
+ float:left;
+  width:780px;
+   height:472px;
+  padding-right:50px;
+  padding-left:10px;
+}
+
+#men_sports_1_2:hover{
+  transform:scale(1.2);
+  background-color:lavenderblush;
+  position: relative;
+  bottom:50px;
+}

@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Comparison_stocks.in</title>
+        <style>
+        h1   {font-family: serif;
+        color: white;
+        margin-top: 20px;}
+        body {border: 50px solid blue;
+        border-left: 500px solid blue;
+        border-right: 500px solid blue;
+        text-align:center;
+        box-sizing : border-box;}
+        </style>
+        <link href="{{url_for('static', filename='style.css')}}" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body>
+
+    <h1><b><u>Comparison of Stocks with SMA</u></b></h1>
+      <br><br><br>
+      <form action="#" method="post">
+
+      <label for="stock_name" ><b style="color:white;"> Enter Stock Name :<b></label>
+      <input type="text" id="alert" name="stock_name" value=""><br><br><br>
+          <label for="interval" ><b style="color:white;"> Enter Interval Time :<b></label>
+      <input type="text" id="alert" name="interval" value=""><br><br><br>
+
+
+
+      <input type="submit" value="Submit">
+
+      <br><br><br><br><br><br>
+          <input type="image" src="https://cdn5.vectorstock.com/i/thumb-large/67/79/stair-stock-market-business-logo-icon-design-vector-22926779.jpg" alt="img not displayed due to some error" width="200" height="200">
+
+      </form>
+    </body>
+</html>
